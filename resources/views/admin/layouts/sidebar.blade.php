@@ -1,10 +1,10 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
       <div class="sidebar-brand">
-        <a href="index.html">Transpar</a>
+        <a href="{{ route('admin.dashboard') }}">Transpar</a>
       </div>
       <div class="sidebar-brand sidebar-brand-sm">
-        <a href="index.html">Transpar</a>
+        <a href="{{ route('admin.dashboard') }}">Transpar</a>
       </div>
       <ul class="sidebar-menu">
         <li class="menu-header">Painel de Controle</li>
